@@ -1,6 +1,6 @@
 +++
 title = "Locked Down"
-description = "A year 10 art show."
+description = "A year 10 art show"
 +++
 
 # A virtual show
@@ -14,24 +14,40 @@ Unable to return to school and with limited resources, ākonga at TGS began turn
 ## Artists in the show
 
 Kathryn Reid
+
 Kate Haskell
+
 Vivianne Qian
+
 Scarlett Murphy
+
 Scarlett Somerville-Ryan
+
 Ella Yazici
+
 Lucy Nichol
+
 Tom McCarthy
+
 Hannah Mace
+
 Lily Hatton-Burke
+
 Audrey Yan
+
 Holly Glennie-Crosby
+
 Nik Lee
+
 Elena Volkov
+
 Sascha Letica
+
 Sanjana Vinod
+
 Alexandra Perkins
  
-## Press images
+## Images
 
 ![](https://exhibition.tewahi.com/media/locked-down/a2.png)
 
@@ -46,3 +62,7 @@ Alexandra Perkins
 
 
 ![](https://exhibition.tewahi.com/media/locked-down/a5.png)
+
+## Press
+
+[Devonport Flagstaff](https://devonportflagstaff.co.nz/wp-content/uploads/2021/09/Devonport_Flagstaff_24Sep2021.pdf#page=30&zoom=auto,-296,697)
