@@ -128,7 +128,7 @@
 .markdown li a,
 .markdown h3 a,
 .markdown h2 a {
-  @apply text-green-400;
+  @apply text-blue-400;
 }
 
 .markdown blockquote {
