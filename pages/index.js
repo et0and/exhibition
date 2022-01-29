@@ -55,7 +55,7 @@ export default function Home({
   return (
     <Container>
       <Head>
-        <title>operators.urbit.org</title>
+        <title>Exhibitions</title>
       </Head>
       <SingleColumn>
         <Header />
@@ -66,8 +66,8 @@ export default function Home({
           <div className="relative w-full bg-gray-200 rounded-2xl hero-image-height overflow-hidden bg-hero-img">
             <div className="absolute text-black dark:text-white flex w-full h-full items-center p-4 md:p-8 lg:p-12">
               <div>
-                <h1>Guides for Urbit Operators </h1>
-                <h1>and Community Leaders</h1>
+                <h1>A place for exhibitions </h1>
+                <h1>past, present, future</h1>
               </div>
             </div>
 
@@ -76,7 +76,7 @@ export default function Home({
         </Section>
 
         <Section>
-          <h2 className="m-0 p-0 mr-4">Getting Started</h2>
+          <h2 className="m-0 p-0 mr-4">What's on now</h2>
           <TwoUp className="mt-8">
             <GuideCard guide={inspectId} />
             <GuideCard guide={whichId} />
@@ -84,7 +84,7 @@ export default function Home({
         </Section>
 
         <Section>
-          <h2 className="m-0 p-0 mr-4">Marketplaces</h2>
+          <h2 className="m-0 p-0 mr-4">Upcoming</h2>
           <TwoUp className="mt-8">
             <BubbleLink
               href="https://star.market"
@@ -118,7 +118,7 @@ export default function Home({
         </Section>
 
         <Section>
-          <h2 className="m-0 p-0 mr-4">Operating your Node</h2>
+          <h2 className="m-0 p-0 mr-4">Past shows</h2>
           <TwoUp className="mt-8">
             <GuideCard guide={runningStar} />
             <GuideCard guide={runningGalaxy} />
@@ -131,21 +131,15 @@ export default function Home({
         </Section> */}
 
         <Section>
-          <h2 className="m-0 p-0 mr-4 measure">Help and Support</h2>
+          <h2 className="m-0 p-0 mr-4 measure">An initiative by Te Wāhi Auaha</h2>
           <p className="pb-12 mt-8 measure">
-            Need help operating your star or galaxy? Don't be a stranger. 
-            Reach out to us at the email below.
+            A new kind of makerspace, at Takapuna Grammar School
           </p>
           {/* <Link href="/faq">
             <button className="button-lg type-ui text-white bg-wall-600 mb-4">
             Check out the FAQ
             </button>
           </Link> */}
-          <div className="table">
-          <a href="mailto:support@urbit.org" className="button-lg type-ui text-white bg-wall-600 dark:bg-antiwall-100">
-            support@urbit.org
-          </a>
-          </div>
         </Section>
 
         <Footer />
