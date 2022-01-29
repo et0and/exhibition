@@ -49,19 +49,23 @@ Alexandra Perkins
  
 ## Images
 
-![](https://exhibition.tewahi.com/media/locked-down/a2.png)
+![](/images/locked-down/a1.png)
 
 
 
-![](https://exhibition.tewahi.com/media/locked-down/a3.png)
+![](/images/locked-down/a2.png)
 
 
 
-![](https://exhibition.tewahi.com/media/locked-down/a4.png)
+![](/images/locked-down/a3.png)
 
 
 
-![](https://exhibition.tewahi.com/media/locked-down/a5.png)
+![](/images/locked-down/a4.png)
+
+
+
+![](/images/locked-down/a5.png)
 
 ## Press
 
