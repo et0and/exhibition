@@ -74,18 +74,22 @@ export default function Home({
 
         <Section>
           <h2 className="m-0 p-0 mr-4">What's on now</h2>
+          {/*
           <TwoUp className="mt-8">
             <GuideCard guide={imaginaryId} />
             <GuideCard guide={imaginaryId} />
           </TwoUp>
+          */}
         </Section>
 
         <Section>
           <h2 className="m-0 p-0 mr-4">Upcoming</h2>
+          {/*
           <TwoUp className="mt-8">
           <GuideCard guide={imaginaryId} />
           <GuideCard guide={imaginaryId} />
           </TwoUp>
+          */}
         </Section>
 
         <Section>
