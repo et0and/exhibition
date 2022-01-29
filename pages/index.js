@@ -12,7 +12,6 @@ import TwoUp from "../components/TwoUp";
 import {
   getPostBySlug,
 } from "../lib/lib";
-import BubbleLink from "../components/BubbleLink";
 
 function GuideCard({ guide, className }) {
   return (
@@ -45,10 +44,8 @@ function FaqCard({ faq, className }) {
 }
 
 export default function Home({
-  inspectId,
-  whichId,
-  runningStar,
-  runningGalaxy,
+  imaginaryId,
+  lockedDown,
   faq,
 }) {
   
@@ -78,50 +75,21 @@ export default function Home({
         <Section>
           <h2 className="m-0 p-0 mr-4">What's on now</h2>
           <TwoUp className="mt-8">
-            <GuideCard guide={inspectId} />
-            <GuideCard guide={whichId} />
+            <GuideCard guide={imaginaryId} />
           </TwoUp>
         </Section>
 
         <Section>
           <h2 className="m-0 p-0 mr-4">Upcoming</h2>
           <TwoUp className="mt-8">
-            <BubbleLink
-              href="https://star.market"
-              title="Star Market"
-              caption="DEX for Urbit stars"
-            >
-              <img alt="star market logo" className="max-w-none w-12 h-12 rounded-full" src="/images/star-market-logo.png" />
-            </BubbleLink>
-            <BubbleLink
-              href="https://opensea.io/assets/urbit-id"
-              title="OpenSea"
-              caption="A large, general NFT marketplace">
-              <img alt="opensea logo" className="max-w-none w-12 h-12 rounded-full" src="https://opensea.io/static/images/logos/opensea.svg" />
-            </BubbleLink>
-          </TwoUp>
-          <TwoUp className="mt-0">
-            <BubbleLink
-              href="https://urbit.live"
-              title="Urbit.live"
-              caption="A specialized market for Urbit planets"
-              >
-              <img alt="urbitlive logo" className="max-w-none w-12 h-12 rounded-full" src="https://urbit.live/static/media/urbit-live-logo-png-400.6ec9a92b.png" />
-            </BubbleLink>
-            <BubbleLink
-              href="web+urbitgraph://group/~tirrel/the-marketplace"
-              title="The Marketplace"
-              caption="An Urbit group for trading address space">
-                <img alt="Marketplace logo" className="max-w-none w-12 h-12 rounded-full" src="/images/the-marketplace-logo.png" />
-            </BubbleLink>
+          <GuideCard guide={imaginaryId} />
           </TwoUp>
         </Section>
 
         <Section>
           <h2 className="m-0 p-0 mr-4">Past shows</h2>
           <TwoUp className="mt-8">
-            <GuideCard guide={runningStar} />
-            <GuideCard guide={runningGalaxy} />
+            <GuideCard guide={lockedDown} />
           </TwoUp>
         </Section>
 
@@ -150,20 +118,16 @@ export default function Home({
 
 export async function getStaticProps() {
 
-  const inspectId = getPostBySlug('how-to-inspect-an-id', ['slug', 'title', 'description'], 'guides')
-  const whichId = getPostBySlug('which-id-should-i-buy', ['slug', 'title', 'description'], 'guides')
+  const imaginaryId = getPostBySlug('imaginary-museum', ['slug', 'title', 'description'], 'guides')
 
-  const runningStar = getPostBySlug('running-a-star', ['slug', 'title', 'description'], 'guides')
-  const runningGalaxy = getPostBySlug('running-a-galaxy', ['slug', 'title', 'description'], 'guides')
+  const lockedDown = getPostBySlug('locked-down', ['slug', 'title', 'description'], 'guides')
 
   const faq = getPostBySlug('faq', ['slug', 'title', 'description'], '/')
 
   return {
     props: {
-      inspectId,
-      whichId,
-      runningStar,
-      runningGalaxy,
+      imaginaryId,
+      lockedDown,
       faq,
     },
   };
